@@ -1,5 +1,5 @@
 #include "tetris.h"
-
+#praga warning(disable:4996)
 #define SPEED 600
 
 int main() {
@@ -72,4 +72,4 @@ int main() {
 	return 0;
 }
 
-//��� 17
+//°¡¿îµ¥ 17
