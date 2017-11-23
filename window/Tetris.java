@@ -79,7 +79,7 @@ public class Tetris extends JFrame implements ActionListener{
 		String nickName=null;
 		if(e.getSource() == itemServerStart){
 			
-			String sp = JOptionPane.showInputDialog("port번호를 입력해주세요","9500");
+			String sp = JOptionPane.showInputDialog("port번호를 입력해주세요","8080");
 			if(sp!=null && !sp.equals(""))port = Integer.parseInt(sp);
 			nickName = JOptionPane.showInputDialog("닉네임을 입력해주세요","이름없음");
 			
@@ -109,7 +109,7 @@ public class Tetris extends JFrame implements ActionListener{
 			}
 			
 			ip = JOptionPane.showInputDialog("IP를 입력해주세요.",ip);
-			String sp = JOptionPane.showInputDialog("port번호를 입력해주세요","9500");
+			String sp = JOptionPane.showInputDialog("port번호를 입력해주세요","8080");
 			if(sp!=null && !sp.equals(""))port = Integer.parseInt(sp);
 			nickName = JOptionPane.showInputDialog("닉네임을 입력해주세요","이름없음");
 
